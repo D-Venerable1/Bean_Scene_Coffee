@@ -32,7 +32,7 @@ background-color: #F9C06A;
 border-radius: 24px;
 }
 header{
-    height: 768px;
+    height: 800px;
     background-image: url(./image/coffee_image.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -71,6 +71,7 @@ font-size: 54px;
 font-weight: 700px;
 line-height: 71.98px;
 color: #603809;
+margin-top: 150px;
 }
 main pre p:nth-child(2){
     font-family: Playfair Display;
@@ -80,8 +81,30 @@ main pre p:nth-child(2){
     color: #707070;
 }
 main{
-    background-color: red;
+    background-color: white;
+    margin-top: -80px;
 }
 #coffee{
+    margin-left: 750px;
+    margin-top: -430px;
+    display: flex;
+}
+main input{
     
+}
+#blend{
+font-size: 54px;
+font-weight: 700px;
+color: #603809;
+font-family: Playfair Display;
+line-height: 71.98px;
+text-align:center; 
+}
+#sub-blend{
+    font-size: 20px;
+    font-weight: 400px;
+    color: #707070;
+    font-family: Playfair Display;
+    line-height: 71.98px;  
+    text-align:center; 
 }
