@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+ul li:first-child {
+    font-family: Clicker Script;
+    margin-left: 120px;
+    font-size: 35px;
+
+}
+ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 15px;
+    font-family: Playfair Display;
+}
+ul li a{
+color: white;
+}
+ul li:nth-child(2){
+    margin-left: 190px;
+}
+ul li:nth-child(6){
+    margin-left: 250px;
+}
+ul li:last-child a:last-child{
+padding: 15px 20px;
+background-color: #F9C06A;
+border-radius: 24px;
+}
+header{
+    height: 768px;
+    background-image: url(./image/coffee_image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+pre{
+    margin-top: 80px;
+}
+pre p{
+    font-size: 22px;
+    color: white;
+    font-family:Playfair Display;
+    margin-left: 120px;
+}
+pre p:nth-child(2){
+    font-family: Clicker Script;
+    font-size: 220px;
+}
+pre p:last-child{
+    line-height: 34px;
+}
+input{
+padding: 15px 20px;
+background-color: #F9C06A;
+border-radius: 24px;
+outline: none;
+border: none;
+margin-left: 120px;
+font-family:Playfair Display;
+font-size: 16px;
+font-weight: 700;
+}
+main pre:first-child p:first-child{
+font-family: Playfair Display;
+font-size: 54px;
+font-weight: 700px;
+line-height: 71.98px;
+color: #603809;
+}
+main pre p:nth-child(2){
+    font-family: Playfair Display;
+    line-height: 34px;
+    font-weight: 400px;
+    font-size: 20px;
+    color: #707070;
+}
+main{
+    background-color: red;
+}
+#coffee{
+    
+}
