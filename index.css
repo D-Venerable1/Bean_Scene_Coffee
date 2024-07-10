@@ -2,140 +2,177 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    list-style: none;
+    /* list-style: none; */
     box-sizing: border-box;
+    font-family: Playfair Display;
 }
-ul li:first-child {
-    font-family: Clicker Script;
-    margin-left: 120px;
-    font-size: 35px;
-
+nav{
 }
-ul li{
+nav ul li{
     display: inline-block;
     line-height: 80px;
-    margin: 0px 15px;
-    font-family: Playfair Display;
+    margin: 0px 25px;
+    color: white;
 }
-ul li a{
-color: white;
+#Bean{
+    margin-left: 90px;
+    font-family: Clicker Script;
+    font-size: 35px;
+    font-weight: 400;
+    color: white;
 }
-ul li:nth-child(2){
-    margin-left: 190px;
-}
-ul li:nth-child(6){
-    margin-left: 250px;
-}
-ul li:last-child a:last-child{
-padding: 15px 20px;
-background-color: #F9C06A;
-border-radius: 24px;
+nav ul li a{
+    color: white;
 }
 header{
-    height: 800px;
     background-image: url(./image/coffee_image.png);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 820px;
 }
-pre{
-    margin-top: 80px;
+#Home{
+    margin-left: 150px;
 }
-pre p{
-    font-size: 22px;
+#sign-in{
+    margin-left: 140px;
+}
+#sign-up{
+    width: 80px;
+    border-radius: 24px;
+    height: 40px;
+    background-color: #F9C06A;
+    color: black;
+    padding: 10px 20px;
+}
+#first-pre{
+    margin-top: 90px;
+    font-family: Playfair Display;
     color: white;
-    font-family:Playfair Display;
     margin-left: 120px;
 }
-pre p:nth-child(2){
-    font-family: Clicker Script;
+#coffee{
     font-size: 220px;
+    font-family: Clicker Script;
 }
-pre p:last-child{
+#pre-p{
     line-height: 34px;
 }
-/* style input*/
 #order{
-padding: 15px 20px;
-background-color: #F9C06A;
-border-radius: 24px;
-outline: none;
-border: none;
-margin-left: 120px;
-font-family:Playfair Display;
-font-size: 16px;
-font-weight: 700;
-}
-#learn{
-padding: 15px 20px;
-background-color: #F9C06A;
-border-radius: 24px;
-outline: none;
-border: none;
-margin-left: 120px;
-font-family:Playfair Display;
-font-size: 16px;
-font-weight: 700;
+    border-radius: 24px;
+    margin-left: 120px;
+    background-color: #F9C06A;
+    padding: 10px 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
 }
 #discover{
-font-family: Playfair Display;
-font-size: 54px;
-font-weight: 700px;
-line-height: 71.98px;
-color: #603809;
-margin-top: 150px;
-}
-main pre p:nth-child(2){
+    margin-left: 120px;
     font-family: Playfair Display;
-    line-height: 34px;
+    font-size: 54px;
+    font-weight: 700px;
+    line-height: 71.98px;
+    color: #603809;
+    margin-top: 100px;
+}
+#bean{
+    margin-left: 120px;
     font-weight: 400px;
     font-size: 20px;
     color: #707070;
+    line-height: 34px;
+
 }
-main{
-    background-color: white;
-    margin-top: -80px;
+#bean-bag{
+    margin-left: 800px;
+    margin-top: -400px;
 }
-#coffee{
-    margin-left: 750px;
-    margin-top: -430px;
-    display: flex;
-}
-main input{
-    
+#learn{
+    border-radius: 24px;
+    margin-left: 120px;
+    background-color: #F9C06A;
+    padding: 10px 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
 }
 #blend{
-font-size: 54px;
-font-weight: 700px;
-color: #603809;
 font-family: Playfair Display;
+font-size: 54px;
+font-weight: 700;
 line-height: 71.98px;
-text-align:center; 
+text-align: center;
+color: #603809;
 }
 #sub-blend{
-    font-size: 20px;
-    font-weight: 400px;
-    color: #707070;
-    font-family: Playfair Display;
-    line-height: 71.98px;  
-    text-align:center; 
+font-family: Playfair Display;
+font-size: 20px;
+font-weight: 400;
+line-height: 94px;
+text-align: center;
+color: #707070;
 }
 .Cards{
-    width: 900px;
     display: flex;
     justify-content: space-evenly;
-}
-.Cards img{
-    width: 150px;
-}
-.Cards .container pre p{
-    font-size: 9px;
-    margin-top: 0px;
+    width: 90%;
+    margin-left: 90px;
 }
 .Card{
-width: 40%;
+    background-color: rgba(249, 192, 106, 0.4);
+    height: 360px;
+    border-color: rgba(249, 192, 106, 0.4);
+    border: 1px solid  rgba(249, 192, 106, 0.4);
+
+    
 }
-.container {
-    margin: 0px;
-    /* padding: 2px 16px; */
+.Card img{
+width: 280px;
+height: 222px;
+}
+.Card p{
+    text-align: center;
+    line-height: 0px;
+}
+.Card input{
+    border-radius: 24px;
+    background-color: #F9C06A;
+    padding: 10px 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 90px;
+    margin-top: -22px;
+}
+#head-l{
+color: #603809;
+font-family: Playfair Display;
+font-size: 22px;
+font-weight: 800px;
+}
+#middle-l{
+    margin-top: -10px;
+}
+#tail-l{
+color: #603809;
+font-family: Playfair Display;
+font-size: 18px;
+font-weight: 700px;
+ margin-top: -10px;
+}
+#mid-h2, #mid-p{
+    text-align: center;
+    margin-top: 20px;
+}
+#mid-h2{
+    margin-top: 90px;
+    font-size: 54px;
+    color: #603809;
+}
+#mid-p{
+    font-size: 20px;
+    color: #707070;
+}
+.card-2{
+    display: flex;
+    justify-content: space-evenly;
 }
