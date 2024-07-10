@@ -54,7 +54,8 @@ pre p:nth-child(2){
 pre p:last-child{
     line-height: 34px;
 }
-input{
+/* style input*/
+#order{
 padding: 15px 20px;
 background-color: #F9C06A;
 border-radius: 24px;
@@ -65,7 +66,18 @@ font-family:Playfair Display;
 font-size: 16px;
 font-weight: 700;
 }
-main pre:first-child p:first-child{
+#learn{
+padding: 15px 20px;
+background-color: #F9C06A;
+border-radius: 24px;
+outline: none;
+border: none;
+margin-left: 120px;
+font-family:Playfair Display;
+font-size: 16px;
+font-weight: 700;
+}
+#discover{
 font-family: Playfair Display;
 font-size: 54px;
 font-weight: 700px;
@@ -107,4 +119,23 @@ text-align:center;
     font-family: Playfair Display;
     line-height: 71.98px;  
     text-align:center; 
+}
+.Cards{
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Cards img{
+    width: 150px;
+}
+.Cards .container pre p{
+    font-size: 9px;
+    margin-top: 0px;
+}
+.Card{
+width: 40%;
+}
+.container {
+    margin: 0px;
+    /* padding: 2px 16px; */
 }
