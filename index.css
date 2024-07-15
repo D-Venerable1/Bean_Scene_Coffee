@@ -341,7 +341,7 @@ font-size: 20px;
 font-weight: 400px;
 line-height: 34px;
 }
-.quoted-text pre{
+.quoted-text p{
     color: #707070;
     margin-top: 50px;
     margin-left: 20px;
@@ -513,6 +513,12 @@ margin-top: 20px;
     margin-top: 30px;
 }
 @media screen and (min-width: 320px) and (max-width: 425px){
+nav{
+    width: 320px;
+}
+nav ul{
+    line-height: 0px;
+}
     nav ul li a{
         display: none;
     }
@@ -526,7 +532,8 @@ body{
 .menu-icon{
     display: inline-block;
     color: white;
-    margin-left: -220px;  
+    margin-left: 80px; 
+    margin-top: -100px;
 }
 #first-pre{
     margin-left: 0px;
@@ -536,6 +543,7 @@ body{
 }
 header{
     height: 510px;
+    width: 320px;
 }
 #pre-p{
     font-size: 12px;
@@ -603,5 +611,69 @@ p{
 }
 #inner-card{
     margin-bottom: 40px;
+}
+#take-a{
+    font-size: 18px;
+}
+.coffee-container{
+    width: 320px;
+    height: 400px;
+}
+.coffee-container pre{
+    margin-left: 10px;
+}
+.coffee-container pre h2{
+    font-size: 25px;
+}
+.coffee-container pre p{
+    font-size: 15px;
+    margin-top: -30px;
+}
+#order-now{
+    margin-left: 80px;
+}
+#our{
+    font-size: 30px;
+    line-height: 50px;
+}
+#has{
+    font-size: 15px;
+}
+.quoted-text{
+    width: 300px;
+    height: 524px;
+    margin-left: 10px;
+    padding: 20px 20px;
+}
+.quoted-text p{
+    color: #707070;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 36px;
+}
+#left{
+    margin-left: 250px;
+    margin-top: -150px;
+    width: 41px;
+    display: none;
+}
+#right{
+    margin-left: -30px;
+    margin-top: -220px;
+    width: 41px;
+    display: none;
+}
+#join{
+    margin-left: 80px;
+}
+#cup{
+    width: 130px;
+    margin-left: 130px;
+    margin-top: 0.0004px;
+}
+#coffee-bean{
+    width: 250px;
+    margin-left: 70px;
+    margin-top: px;
 }
 }
