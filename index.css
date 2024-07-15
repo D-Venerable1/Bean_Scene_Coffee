@@ -324,12 +324,13 @@ line-height: 34px;
 }
 #left{
     margin-left:770px;
-    margin-top: -150px;
-    /* z-index: 1; */
+    margin-top: -110px;
+    display: block;
 }
 #right{
     margin-left: -120px;
-    margin-top: -120px;
+    margin-top: -130px;
+    display: block;
 }
 body{
 }
@@ -344,4 +345,145 @@ body{
     background-color: #FFF9F1;
     margin-left: 193px;
     padding: 20px 80px;
+}
+.quoted-text h2, .quoted-text p{
+    text-align: center;
+    line-height: 35px;
+}
+.quoted-text h2{
+    margin-top: 40px;
+    color: #603809;
+}
+#jonny{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+#coffe-blast-2{
+    margin-left: -275px;
+    margin-top: -270px;
+    display: block;
+}
+#subscribe{
+background-image: url(./image/Group\ 36.png);
+background-size: cover;
+height: 400px;
+align-items: center;
+margin-top: 200px;
+
+}
+#wing-2{
+    margin-left: 1060px;
+    margin-top: 120px;
+}
+#wing-1{
+    margin-top: 120px;
+}
+#wing-1, #wing-2{ 
+    /* z-index: 1; */
+    position: absolute;
+    
+}
+#subscribe pre{
+    text-align: center;
+    margin-top: 50px;
+}
+#subscribe pre h2{
+font-size: 54px;
+font-weight: 700px;
+line-height: 71.98px;
+color: white;
+margin-top: 50px;
+}
+#subscribe pre p{
+font-size: 20px;
+font-weight: 400px;
+line-height: 34px;
+color: white;
+}
+.bottom{
+    margin-top: 150px;
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 654px;
+    margin-left: 350px;
+    border-radius: 5px;
+}
+
+.email-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    flex: 1;
+    border-right: none;
+}
+
+.subscribe-button {
+    padding: 11px 20px;
+    margin-left: -20px;
+    border: none;
+    background-color: #F9C06A;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.subscribe-button:hover {
+    background-color: #0056b3;
+}
+footer{
+    display: flex;
+    background-color: #603809;
+    background-image: url(./image/fotter_image.png);
+    background-image: (to bottom, rgb(96, 56, 9), rgb(96, 55, 9));
+    background-size: cover;
+    height: 508px;
+}
+footer ul{
+    list-style: none;
+    margin-top: 100px; 
+    color: white;
+    margin-left: 60px;
+
+}
+footer ul li{
+    line-height: 42px;
+}
+#first-ul{
+    margin-left: 90px;
+}
+footer pre{
+    margin-top: 70px;
+    margin-left: 90px;
+    max-width: 380px;  
+    color: white; 
+}
+footer pre p{
+    line-height: 22px;
+}
+footer i{
+    margin-left: 20px;
+    color: white;
+}
+#book{
+    margin-left: -2px;
+}
+#bs{
+font-family: Clicker Script;
+font-size: 50px;
+font-weight: none;
+margin-top: 20px;
+}
+#first-l{
+    font-size: 26px;
+}
+#second-l{
+    margin-top: 30px;
 }
