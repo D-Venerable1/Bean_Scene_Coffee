@@ -7,10 +7,16 @@
     font-family: Playfair Display;
 }
 nav{
-    background-color: rgba(26, 19, 17, 0.9);
+    background-color: rgba(26, 19, 17, 0.5);
     position: fixed;
     top: 0;
     width: 1360px;
+}
+.menu-toggle{
+    display: none;
+}
+.menu-icon{
+    display: none;
 }
 nav ul li{
     display: inline-block;
@@ -30,7 +36,8 @@ nav ul li a{
     transition: transform 2s ease;
 }
 nav ul li a:hover{
-    transform: scaleX(1);
+    transform: underline;
+    color: #0056b3;
     text-decoration: underline;
 }
 header{
@@ -504,4 +511,97 @@ margin-top: 20px;
 }
 #second-l{
     margin-top: 30px;
+}
+@media screen and (min-width: 320px) and (max-width: 425px){
+    nav ul li a{
+        display: none;
+    }
+    #Bean{
+        display: inline-block;
+        margin-left: 0px;
+    }
+body{
+    overflow-x: hidden;
+}
+.menu-icon{
+    display: inline-block;
+    color: white;
+    margin-left: -220px;  
+}
+#first-pre{
+    margin-left: 0px;
+}
+#coffee{
+    font-size: 110px;
+}
+header{
+    height: 510px;
+}
+#pre-p{
+    font-size: 12px;
+}
+p{
+    font-size: 12px;
+}
+#discover{
+    margin-left:0px;
+    font-size: 27px;
+    font-weight: 700px;
+    line-height: 51.98px;
+    margin-top: 50px;
+}
+#bean{
+    font-size: 11px;
+    margin-left: 0px;
+
+}
+#bean-bag{
+    display: block;
+    margin-left: 0px;
+    margin-top: -330px;
+    width: 290px;
+}
+#learn{
+ margin-top: 230px;
+}
+#bland{
+    width: 300px;
+}
+#blend{
+    font-size: 27px;
+    line-height: 40px;
+}
+#sub-blend{
+    line-height: 40px;
+    font-size: 18px;
+}
+.Cards{
+    display: block;
+    padding-left: 0px;
+    margin-left: 15px;
+}
+.Card{
+    margin-bottom: 50px;
+}
+#mid-h2{
+    font-size: 27px;   
+}
+#mid-p{
+    font-size: 18px;
+}
+#beans-flipped{
+    margin-top: 120px;
+}
+.card-2{
+    display: block;
+    margin-left: 15px;
+}
+#seperate{
+    display: block;
+    margin-top: 450px; 
+    margin-bottom: 40px;
+}
+#inner-card{
+    margin-bottom: 40px;
+}
 }
