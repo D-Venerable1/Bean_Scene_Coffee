@@ -590,6 +590,7 @@ p{
 }
 .Card{
     margin-bottom: 50px;
+    width: 282px;
 }
 #mid-h2{
     font-size: 27px;   
@@ -791,3 +792,557 @@ footer ul li{
     font-size: 30px;
 }
 }
+@media (min-width: 321px) and (max-width: 375px) {
+    header{
+        width: max-content;
+    }
+    nav ul li a{
+        display: none; 
+}
+#Bean{
+    display: inline-block;
+    margin-left: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+.menu-icon{
+    margin-top: -70px;
+    display: block;
+    margin-left: 305px;
+    font-size: 40px;
+    color: white;
+}
+nav{
+    height: 86px;
+}
+#first-pre{
+    margin-left: 30px;
+}
+#coffee{
+    font-size: 110px;
+}
+header{
+    height: 510px;
+    width: 375px;
+}
+#pre-p{
+    font-size: 12px;
+}
+p{
+    font-size: 12px;
+}
+#discover{
+    margin-left: 30px;
+    font-size: 27px;
+    font-weight: 700px;
+    line-height: 51.98px;
+    margin-top: 50px;
+}
+#bean{
+    font-size: 11px;
+    margin-left: 30px;
+
+}
+#bean-bag{
+    display: block;
+    margin-left: 0px;
+    margin-top: -330px;
+    width: 290px;
+}
+#learn{
+ margin-top: 230px;
+}
+#bland{
+    width: 300px;
+}
+#blend{
+    font-size: 27px;
+    line-height: 40px;
+}
+#sub-blend{
+    line-height: 40px;
+    font-size: 18px;
+}
+.Cards{
+    display: block;
+    padding-left: 0px;
+    margin-left: 25px;
+}
+.Card{
+    margin-bottom: 50px;
+    width: 282px;
+}
+#mid-h2{
+    font-size: 27px;   
+}
+#mid-p{
+    font-size: 18px;
+}
+#beans-flipped{
+    margin-top: 120px;
+}
+.card-2{
+    display: block;
+    margin-left: 25px;
+}
+#seperate{
+    display: block;
+    margin-top: 450px; 
+    margin-bottom: 40px;
+}
+#inner-card{
+    margin-bottom: 40px;
+}
+#take-a{
+    font-size: 18px;
+}
+.coffee-container{
+    width: 375px;
+    height: 400px;
+}
+.coffee-container pre{
+    margin-left: 30px;
+}
+.coffee-container pre h2{
+    font-size: 25px;
+}
+.coffee-container pre p{
+    font-size: 15px;
+    margin-top: -30px;
+}
+#order-now{
+    margin-left: 80px;
+}
+#our{
+    font-size: 30px;
+    line-height: 50px;
+}
+#has{
+    font-size: 15px;
+}
+.quoted-text{
+    width: 300px;
+    height: 524px;
+    margin-left: 30px;
+    padding: 20px 20px;
+}
+.quoted-text p{
+    color: #707070;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 36px;
+}
+#left{
+    margin-left: 250px;
+    margin-top: -150px;
+    width: 41px;
+    display: none;
+}
+#right{
+    margin-left: -30px;
+    margin-top: -220px;
+    width: 41px;
+    display: none;
+}
+#join{
+    margin-left: 80px;
+}
+#cup{
+    width: 130px;
+    margin-left: 130px;
+    line-height: 150px;
+    display: none;
+}
+#coffee-bean{
+    display: none;
+}
+#quote{
+    width: 42px;
+}
+#jonny{
+    width: 68px;
+    margin-left: 100px;
+    margin-top: -6px;
+}
+#coffe-blast-2{
+    width: 194px;
+    margin-left: -50px;
+    margin-top: 10px;
+}
+.quoted-text h2{
+    margin-top: -3px;
+}
+#c3{
+    margin-top: -6px;
+}
+#wing-1{
+    margin-left: 0px;
+    width: 130px;
+    margin-top: 190px;
+    display: flex;
+
+}
+#wing-2{
+    margin-left: 250px;
+    width: 125px;
+    margin-top: 190px;
+    display: flex;
+}
+#subscribe{
+    padding-top: 0px;
+}
+#subscribe h2{
+    font-size: 20px;
+}
+#subscribe p{
+font-size: 15px;
+line-height: 32px;
+}
+.subscribe-form{
+width: 270px;
+margin-left: 30px;
+}
+footer pre{
+    margin-left: 30px;
+}
+footer{
+    display: flex;
+    width: 375px;
+    height: 1400px;
+}
+footer ul{
+    display: block;
+    margin-left: 0px;
+    margin-top: 350px;
+    
+}
+#first-ul{
+    margin-left: -350px;
+    display: block;
+    font-size: 18px;
+    
+}
+footer ul li{
+    font-size: 10px;
+    margin-left: 130px;
+
+}
+#first-ul #first-l{
+    font-size: 42px;
+    text-align: center;
+    margin-left: 70px;
+    line-height: 70px;
+}
+#first-ul li{
+    margin-left: 130px;
+    font-size: 20px;
+}
+#second-l{
+    margin-top: -5px;
+}
+#second-ul{
+    margin-top: 700px;
+    margin-left: -330px;
+
+}
+#second-ul #first-l{
+    font-size: 42px;
+    line-height: 70px;
+
+}
+#second-ul li{
+    font-size: 20px;
+    margin-left: 150px;
+    text-align: center;
+}
+#third-ul{
+    margin-top: 1000px;
+    margin-left: -290px;
+}
+#third-ul #first-l{
+    font-size: 38px;
+}
+#third-ul li{
+    font-size: 15px;   
+}
+}
+
+@media (min-width: 376px) and (max-width: 425px){
+    header{
+        width: max-content;
+    }
+    nav ul li a{
+        display: none; 
+}
+#Bean{
+    display: inline-block;
+    margin-left: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+.menu-icon{
+    margin-top: -90px;
+    display: block;
+    margin-left: 385px;
+    font-size: 40px;
+    color: white;
+}
+nav{
+    height: 86px;
+    width: 425px;
+}
+#first-pre{
+    margin-left: 40px;
+}
+#coffee{
+    font-size: 110px;
+}
+header{
+    height: 510px;
+    width: 425px;
+}
+#pre-p{
+    font-size: 12px;
+}
+p{
+    font-size: 12px;
+}
+#discover{
+    margin-left: 40px;
+    font-size: 27px;
+    font-weight: 700px;
+    line-height: 51.98px;
+    margin-top: 50px;
+}
+#bean{
+    font-size: 13px;
+    margin-left: 40px;
+
+}
+#bean-bag{
+    display: block;
+    margin-left: 45px;
+    margin-top: -330px;
+    width: 290px;
+}
+#learn{
+ margin-top: 230px;
+ margin-left: 165px;
+}
+#bland{
+    width: 300px;
+}
+#blend{
+    font-size: 27px;
+    line-height: 40px;
+}
+#sub-blend{
+    line-height: 40px;
+    font-size: 18px;
+}
+.Cards{
+    display: block;
+    padding-left: 0px;
+    margin-left: 75px;
+}
+.Card{
+    margin-bottom: 50px;
+    width: 282px;
+}
+#mid-h2{
+    font-size: 27px;   
+}
+#mid-p{
+    font-size: 18px;
+}
+#beans-flipped{
+    margin-top: 120px;
+}
+.card-2{
+    display: block;
+    margin-left: 75px;
+}
+#seperate{
+    display: block;
+    margin-top: 450px; 
+    margin-bottom: 40px;
+}
+#inner-card{
+    margin-bottom: 40px;
+}
+#take-a{
+    font-size: 18px;
+}
+.coffee-container{
+    width: 425px;
+    height: 400px;
+}
+.coffee-container pre{
+    margin-left: 70px;
+}
+.coffee-container pre h2{
+    font-size: 25px;
+}
+.coffee-container pre p{
+    font-size: 15px;
+    margin-top: -30px;
+}
+#order-now{
+    margin-left: 150px;
+}
+#our{
+    font-size: 30px;
+    line-height: 50px;
+}
+#has{
+    font-size: 15px;
+}
+.quoted-text{
+    width: 300px;
+    height: 524px;
+    margin-left: 70px;
+    padding: 20px 20px;
+}
+.quoted-text p{
+    color: #707070;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 36px;
+}
+#left{
+    margin-left: 250px;
+    margin-top: -150px;
+    width: 41px;
+    display: none;
+}
+#right{
+    margin-left: -30px;
+    margin-top: -220px;
+    width: 41px;
+    display: none;
+}
+#join{
+    margin-left: 170px;
+}
+#cup{
+    width: 130px;
+    margin-left: 130px;
+    line-height: 150px;
+    display: none;
+}
+#coffee-bean{
+    display: none;
+}
+#quote{
+    width: 42px;
+}
+#jonny{
+    width: 68px;
+    margin-left: 100px;
+    margin-top: -6px;
+}
+#coffe-blast-2{
+    width: 194px;
+    margin-left: -90px;
+    margin-top: 10px;
+}
+.quoted-text h2{
+    margin-top: -3px;
+}
+#c3{
+    margin-top: -6px;
+}
+#wing-1{
+    margin-left: 0px;
+    width: 130px;
+    margin-top: 190px;
+    display: flex;
+
+}
+#wing-2{
+    margin-left: 300px;
+    width: 125px;
+    margin-top: 190px;
+    display: flex;
+}
+#subscribe{
+    padding-top: 0px;
+}
+#subscribe h2{
+    font-size: 20px;
+}
+#subscribe p{
+font-size: 15px;
+line-height: 32px;
+}
+.subscribe-form{
+width: 300px;
+margin-left: 50px;
+}
+footer pre{
+    margin-left: 70px;
+}
+footer{
+    display: flex;
+    width: 425px;
+    height: 1400px;
+}
+footer ul{
+    display: block;
+    margin-left: 0px;
+    margin-top: 350px;
+    
+}
+#first-ul{
+    margin-left: -350px;
+    display: block;
+    font-size: 18px;
+    
+}
+footer ul li{
+    font-size: 10px;
+    margin-left: 100px;
+
+}
+#first-ul #first-l{
+    font-size: 42px;
+    text-align: center;
+    margin-left: 70px;
+    line-height: 70px;
+}
+#first-ul li{
+    margin-left: 130px;
+    font-size: 20px;
+}
+#second-l{
+    margin-top: -5px;
+}
+#second-ul{
+    margin-top: 700px;
+    margin-left: -330px;
+
+}
+#second-ul #first-l{
+    font-size: 42px;
+    line-height: 70px;
+
+}
+#second-ul li{
+    font-size: 20px;
+    margin-left: 150px;
+    text-align: center;
+}
+#third-ul{
+    margin-top: 1000px;
+    margin-left: -290px;
+}
+#third-ul #first-l{
+    font-size: 38px;
+}
+#third-ul li{
+    font-size: 15px;   
+}    
+}
+@media (min-width:426px) and (max-width:768px)
