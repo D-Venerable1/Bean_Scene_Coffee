@@ -710,6 +710,7 @@ p{
 }
 #subscribe{
     padding-top: 0px;
+    width: 320px;
 }
 #subscribe h2{
     font-size: 20px;
@@ -777,7 +778,7 @@ footer ul li{
 }
 #third-ul{
     margin-top: 1000px;
-    margin-left: -290px;
+    margin-left: -320px;
 }
 #third-ul #first-l{
     font-size: 38px;
@@ -1345,4 +1346,207 @@ footer ul li{
     font-size: 15px;   
 }    
 }
-@media (min-width:426px) and (max-width:768px)
+@media (min-width:426px) and (max-width:768px){
+    nav{
+        width: 768px;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0px 15px;
+    }
+    #Home{
+        margin-left: 10px;
+    }
+    #Bean{
+        margin-left: 10px;
+    }
+    #sign-in{
+        margin-left: 0px;
+    }
+    #sign-up{
+    margin-left: 0px;
+    }
+    .Cards{
+       display: block; 
+    }
+    .Card{
+        width: 282px;
+    }
+    #two{
+        margin-left: 330px;
+        margin-top: -360px;
+    }
+    #three{
+        margin-top: 70px;
+    }
+    #four{
+        margin-left: 330px;
+        margin-top: -359px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .card-2{
+        margin-left: 90px;
+        display: block;
+        margin-top: 350px;
+    }
+    #inner-card{
+
+    }
+    .one{
+        margin-left: 330px;
+        margin-top: -290px; 
+    }
+    .two{
+        margin-top: 50px;
+    }
+    .three{
+        margin-left: 330px;
+        margin-top: -290px; 
+    }
+    #beans-flipped{
+        margin-top: 80px;
+    }
+    #join{
+        margin-left: 320px;
+    }
+    .quoted-text{
+        margin-left: 30px;
+        width: 700px;
+        
+    }
+    #left{
+        margin-left: 570px;
+        width: 90px;
+        display: flex;
+    }
+    #right{
+        width: 90px;
+        display: flex;
+    }
+    .quoted-text h2{
+        margin-top: 60px;
+        line-height: 10px;
+    }
+    #c3{
+        margin-top: 10px;
+    }
+    #jonny{
+        margin-left: 200px;
+        margin-top: -8px;
+    }
+    #subscribe{
+        padding-top: 0px;
+    }
+    #subscribe h2{
+        font-size: 40px;
+        line-height: 150px;
+    }
+    #subscribe p{
+    font-size: 15px;
+    line-height: 22px;
+    }
+    .subscribe-form{
+    width: 500px;
+    margin-left: 130px;
+    margin-top: 10px;
+    }
+    #wing-1{
+        margin-left: 0px;
+        width: 230px;
+        margin-top: 190px;
+        display: flex;
+    
+    }
+    #wing-2{
+        margin-left: 543px;
+        width: 225px;
+        margin-top: 190px;
+        display: flex;
+    }
+    footer pre{
+        margin-left: 70px;
+    }
+    footer{
+        display: flex;
+        width: 768px;
+        height: 1400px;
+    }
+    footer ul{
+        display: block;
+        margin-left: 0px;
+        margin-top: 350px;
+        
+    }
+    #first-ul{
+        margin-left: -350px;
+        display: block;
+        font-size: 18px;
+        
+    }
+    footer ul li{
+        font-size: 10px;
+        margin-left: 100px;
+    
+    }
+    #first-ul #first-l{
+        font-size: 42px;
+        text-align: center;
+        margin-left: 70px;
+        line-height: 70px;
+    }
+    #first-ul li{
+        margin-left: 130px;
+        font-size: 20px;
+    }
+    #second-l{
+        margin-top: -5px;
+    }
+    #second-ul{
+        margin-top: 700px;
+        margin-left: -330px;
+    
+    }
+    #second-ul #first-l{
+        font-size: 42px;
+        line-height: 70px;
+    
+    }
+    #second-ul li{
+        font-size: 20px;
+        margin-left: 150px;
+        text-align: center;
+    }
+    #third-ul{
+        margin-top: 1000px;
+        margin-left: -290px;
+    }
+    #third-ul #first-l{
+        font-size: 38px;
+    }
+    #third-ul li{
+        font-size: 15px;   
+    }    
+    body{
+        overflow-x: hidden;
+    }
+    #bean-bag{
+        display: block;
+        margin-left: 75px;
+        margin-top: 30px;
+        width: ;
+    }
+    #cup{
+        width: 190px;
+        margin-left: 490px;
+        line-height: 150px;
+        margin-top: -220px;
+        display:;
+        z-index: ;
+    }
+    #coffee-bean{
+        display: none;
+    }
+}
