@@ -394,6 +394,7 @@ background-size: cover;
 height: 400px;
 align-items: center;
 margin-top: 200px;
+padding-top: 25px;
 
 }
 #wing-2{
@@ -408,22 +409,20 @@ margin-top: 200px;
     position: absolute;
     
 }
-#subscribe pre{
-    text-align: center;
-    margin-top: 50px;
-}
-#subscribe pre h2{
+#subscribe h2{
 font-size: 54px;
 font-weight: 700px;
-line-height: 71.98px;
+line-height: 90.98px;
 color: white;
-margin-top: 50px;
+text-align: center;
+margin-top: 90px;
 }
-#subscribe pre p{
+#subscribe p{
 font-size: 20px;
 font-weight: 400px;
-line-height: 34px;
+line-height: 64px;
 color: white;
+text-align: center;
 }
 .bottom{
     margin-top: 150px;
@@ -512,7 +511,7 @@ margin-top: 20px;
 #second-l{
     margin-top: 30px;
 }
-@media screen and (min-width: 320px) and (max-width: 425px){
+@media screen and (max-width: 320px){
 nav{
     width: 320px;
 }
@@ -669,11 +668,119 @@ p{
 #cup{
     width: 130px;
     margin-left: 130px;
-    margin-top: 0.0004px;
+    line-height: 150px;
+    display: none;
 }
 #coffee-bean{
-    width: 250px;
+    display: none;
+}
+#quote{
+    width: 42px;
+}
+#jonny{
+    width: 68px;
+    margin-left: 100px;
+    margin-top: -6px;
+}
+#coffe-blast-2{
+    width: 194px;
+    margin-left: -29px;
+    margin-top: 10px;
+}
+.quoted-text h2{
+    margin-top: -3px;
+}
+#c3{
+    margin-top: -6px;
+}
+#wing-1{
+    margin-left: 0px;
+    width: 130px;
+    margin-top: 190px;
+    display: flex;
+
+}
+#wing-2{
+    margin-left: 195px;
+    width: 125px;
+    margin-top: 190px;
+    display: flex;
+}
+#subscribe{
+    padding-top: 0px;
+}
+#subscribe h2{
+    font-size: 20px;
+}
+#subscribe p{
+font-size: 15px;
+line-height: 32px;
+}
+.subscribe-form{
+width: 270px;
+margin-left: 10px;
+}
+footer pre{
+    margin-left: 0px;
+}
+footer{
+    display: flex;
+    width: 320px;
+    height: 1400px;
+}
+footer ul{
+    display: block;
+    margin-left: 0px;
+    margin-top: 350px;
+    
+}
+#first-ul{
+    margin-left: -350px;
+    display: block;
+    font-size: 18px;
+    
+}
+footer ul li{
+    font-size: 10px;
+    margin-left: 130px;
+
+}
+#first-ul #first-l{
+    font-size: 42px;
+    text-align: center;
     margin-left: 70px;
-    margin-top: px;
+    line-height: 70px;
+}
+#first-ul li{
+    margin-left: 130px;
+    font-size: 20px;
+}
+#second-l{
+    margin-top: -5px;
+}
+#second-ul{
+    margin-top: 700px;
+    margin-left: -330px;
+
+}
+#second-ul #first-l{
+    font-size: 42px;
+    line-height: 70px;
+
+}
+#second-ul li{
+    font-size: 20px;
+    margin-left: 150px;
+    text-align: center;
+}
+#third-ul{
+    margin-top: 1000px;
+    margin-left: -290px;
+}
+#third-ul #first-l{
+    font-size: 38px;
+}
+#third-ul li{
+    font-size: 15px;   
 }
 }
