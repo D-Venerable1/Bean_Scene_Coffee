@@ -514,6 +514,7 @@ margin-top: 20px;
 @media screen and (max-width: 320px){
 nav{
     width: 320px;
+    height: 86px;
 }
 nav ul{
     line-height: 0px;
@@ -782,5 +783,11 @@ footer ul li{
 }
 #third-ul li{
     font-size: 15px;   
+}
+.menu-icon{
+    margin-top: -50px;
+    display: block;
+    margin-left: 270px;
+    font-size: 30px;
 }
 }
