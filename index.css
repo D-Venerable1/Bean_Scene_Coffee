@@ -357,8 +357,6 @@ line-height: 34px;
     margin-top: -130px;
     display: block;
 }
-body{
-}
 .quoted-text #quote{
     margin-top: 30px;
 }
@@ -1392,9 +1390,6 @@ footer ul li{
         display: block;
         margin-top: 350px;
     }
-    #inner-card{
-
-    }
     .one{
         margin-left: 330px;
         margin-top: -290px; 
@@ -1536,17 +1531,39 @@ footer ul li{
         display: block;
         margin-left: 75px;
         margin-top: 30px;
-        width: ;
     }
     #cup{
         width: 190px;
         margin-left: 490px;
         line-height: 150px;
         margin-top: -220px;
-        display:;
-        z-index: ;
     }
     #coffee-bean{
         display: none;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    header{
+        width: 1024px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    #Bean{
+        margin-left: 10px;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0px 20px;
+    }
+    #sign-in{
+        margin-left: 10px;
+    }
+    main pre{
+        margin-left: -80px;
+    }
+    #bean-bag{
+        /* margin-left: -2px;   */
     }
 }
